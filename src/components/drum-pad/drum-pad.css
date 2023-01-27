@@ -8,8 +8,9 @@
 }
 
 .drum-pad {
-  border: 2px solid black;
-  background-color: rgb(125, 125, 125);
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(229, 229, 229, 0.758);
+  color: black;
   border-radius: 5px;
   box-shadow: 1px 1px 2px 1px black;
   width: 30%;
@@ -22,4 +23,9 @@
 
 .drum-pad:hover {
   background-color: rgb(103, 103, 103);
+}
+
+.drum-pad:active {
+  transform: translateZ(10px);
+  box-shadow: 0px 0px 1px 0px black;
 }

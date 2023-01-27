@@ -1,12 +1,12 @@
 .drum-machine {
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(167, 168, 164);
   color: white;
   display: flex;
   flex-basis: 49%;
   align-self: center;
   height: 450px;
   width: 600px;
-  border: 3px solid black;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
-  box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px rgb(146, 147, 50);
 }

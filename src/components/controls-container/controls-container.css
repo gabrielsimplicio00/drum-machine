@@ -19,10 +19,12 @@
 #display {
   background-color: rgb(53, 53, 53);
   width: 50%;
-  padding: 5px;
+  /* padding: 5px; */
+  height: 25px;
   border-radius: 2px;
 }
 
 .volume-display {
   text-align: center;
+  color: black;
 }
